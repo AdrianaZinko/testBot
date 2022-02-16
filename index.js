@@ -7,7 +7,7 @@ bot.start((ctx) =>ctx.reply(`hy ${ctx.message.from.first_name}`))
 bot.help((ctx) => ctx.reply(my_const.commands))
 bot.command('course', async (ctx) => {
     try {
-      await ctx.replyWithHTML('<b>Курсы</b>', Markup.inlineKeyboard(
+      await ctx.replyWithHTML('<b>Курсы2222</b>', Markup.inlineKeyboard(
         [
           [Markup.button.callback('Редакторы', 'btn_1'), Markup.button.callback('Обзоры', 'btn_2'),
            Markup.button.callback('JS', 'btn_3')]
